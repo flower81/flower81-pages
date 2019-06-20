@@ -2,17 +2,27 @@
 
 header {
   background-color: #1a1a1a;
-  margin: 0;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: auto;
 }
 
 header h1 {
   color: #ffffff;
+  margin: 0;
+  padding: 16px;
 }
 
 img {
   width: 100%;
 }
 
+.image-area {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
 .link-pixabay {
   color: #ffffff;
   z-index: 2;
@@ -23,6 +33,27 @@ img {
 }
 
 .link-pixabay a {
-  text-decoration: none;
   color: #ffffff;
+}
+
+.product-area {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.product-contents {
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  position: absolute;
+  margin: 16px;
+  border: solid 1px #dcdcdc;
+  box-shadow: 2px 2px 2px #dcdcdc;
+}
+
+.contents-left {
+  left: 30%;
+}
+.contents-right {
+  right: 30%;
 }
