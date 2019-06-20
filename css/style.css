@@ -1,9 +1,23 @@
 @import url(sanitize.css);
 
-h1 {
-  color: blue;
+header {
+  background-color: #1a1a1a;
+}
+
+header h1 {
+  color: #ffffff;
 }
 
 img {
   width: 100%;
+}
+
+.link-pixabay {
+  color: #ffffff;
+  z-index:
+}
+
+.link-pixabay a {
+  text-decoration: none;
+  color: #ffffff;
 }
