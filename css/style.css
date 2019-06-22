@@ -4,6 +4,7 @@ body {
   width: auto;
   height: 3000px;
   background-color: #f5f5f5;
+  font-family: sans-serif;
 }
 header {
   position: fixed;
